@@ -1,1 +1,3 @@
 language: python
+script:
+	- poetry run flake8 brain_games
