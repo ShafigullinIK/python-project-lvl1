@@ -4,5 +4,8 @@ python: 3.7.3
 before_install:
     - pip install poetry
 
+install:
+    - make install
+
 script:
     - make lint
