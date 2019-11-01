@@ -1,3 +1,7 @@
 language: python
+
+python:
+    - "3.7.3"
+
 script:
-	- poetry run flake8 brain_games
+    - poetry run flake8 brain_games
