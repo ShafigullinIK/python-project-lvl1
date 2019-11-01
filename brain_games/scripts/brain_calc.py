@@ -4,9 +4,9 @@ import brain_games.games.game_logic
 
 def main():
     print("Welcome to the Brain Games!")
-    print('Answer "yes" if number even otherwise answer "no"\n')
+    print('What is the result of the expression?\n')
     name = brain_games.cli.run()
-    win_even_game = brain_games.games.game_logic.game("even_game")
+    win_even_game = brain_games.games.game_logic.game("calc_game")
     if win_even_game is True:
         print("Congratulations, {}!".format(name))
     else:
