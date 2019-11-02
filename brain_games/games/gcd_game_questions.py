@@ -6,7 +6,7 @@ def create_question():
     min_int = 0
     number1 = random.randint(min_int, max_int)
     number2 = random.randint(min_int, max_int)
-    question = "{} {} =".format(number1, number2)
+    question = "{} {}".format(number1, number2)
     correct_answer = str(find_gcd((number1, number2)))
     return(question, correct_answer)
 
