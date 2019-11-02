@@ -14,6 +14,6 @@ def is_prime(n):
     counter = 2
     while counter <= n/2:
         if n % counter == 0:
-            return "yes"
+            return "no"
         counter = counter + 1
-    return "no"
+    return "yes"
