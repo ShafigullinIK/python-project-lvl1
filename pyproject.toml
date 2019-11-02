@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "SHAFIGULLINIK_brain_games"
-version = "0.5.0"
+version = "0.5.2"
 description = ""
 authors = ["Your Name <you@example.com>"]
-packages = [ { include = "brain_games" }, { include = "brain_games/games" }, ]
+packages = [ { include = "brain_games" }, ]
 
 [tool.poetry.scripts]
   brain-games = "brain_games.scripts.brain_games:main"
