@@ -4,9 +4,9 @@ import brain_games.games.game_logic
 
 def main():
     print("Welcome to the Brain Games!")
-    print('What is the result of the expression?\n')
+    print('Find the greatest common divisor of given numbers.\n')
     name = brain_games.cli.run()
-    win_game = brain_games.games.game_logic.game("calc_game")
+    win_game = brain_games.games.game_logic.game("gcd_game")
     if win_game is True:
         print("Congratulations, {}!".format(name))
     else:
