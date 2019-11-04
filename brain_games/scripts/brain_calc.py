@@ -1,12 +1,11 @@
-import brain_games.cli
-import brain_games.games.game_logic
+import brain_games.cli as cli
+import brain_games.games.game_logic as game_logic
 
 
 def main():
-    print("Welcome to the Brain Games!")
-    print('What is the result of the expression?\n')
-    name = brain_games.cli.run()
-    win_game = brain_games.games.game_logic.game("calc_game")
+    cli.greeting('What is the result of the expression?\n')
+    name = cli.run()
+    win_game = game_logic.game("calc_game")
     if win_game is True:
         print("Congratulations, {}!".format(name))
     else:

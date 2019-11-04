@@ -1,6 +1,11 @@
 import prompt
 
 
+def greeting(description):
+    print("Welcome to the Brain Games!")
+    print(description)
+
+
 def run():
     name = prompt.string('May I have your name? ')
     print("Hello, {}! \n".format(name))
