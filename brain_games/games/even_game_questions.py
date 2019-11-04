@@ -2,9 +2,9 @@ import random
 
 
 def create_question():
-    max_int = 100
-    min_int = 0
-    number = random.randint(min_int, max_int)
+    MAX_INT = 100
+    MIN_INT = 0
+    number = random.randint(MIN_INT, MAX_INT)
     correct_answer = "yes"
     if number % 2 == 1:
         correct_answer = "no"

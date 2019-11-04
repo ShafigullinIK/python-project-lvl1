@@ -2,10 +2,10 @@ import random
 
 
 def create_question():
-    max_int = 10
-    number = random.randint(0, max_int)
-    step = random.randint(1, max_int)
-    position = random.randint(0, max_int)
+    MAX_INT = 10
+    number = random.randint(0, MAX_INT)
+    step = random.randint(1, MAX_INT)
+    position = random.randint(0, MAX_INT)
     counter = 0
     question = ""
     while counter < 10:

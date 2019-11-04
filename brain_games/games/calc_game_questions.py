@@ -2,10 +2,10 @@ import random
 
 
 def create_question():
-    max_int = 100
-    min_int = 0
-    number1 = random.randint(min_int, max_int)
-    number2 = random.randint(min_int, max_int)
+    MAX_INT = 100
+    MIN_INT = 0
+    number1 = random.randint(MIN_INT, MAX_INT)
+    number2 = random.randint(MIN_INT, MAX_INT)
     operation = random.choice("+-*")
     question = "{} {} {} =".format(number1, operation, number2)
     correct_answer = str(number1*number2)
