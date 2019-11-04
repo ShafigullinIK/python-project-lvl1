@@ -5,7 +5,7 @@ def create_question():
     MAX_INT = 10
     number = random.randint(0, MAX_INT)
     step = random.randint(1, MAX_INT)
-    position = random.randint(0, MAX_INT)
+    position = random.randint(0, MAX_INT-1)
     counter = 0
     question = ""
     correct_answer = ""
