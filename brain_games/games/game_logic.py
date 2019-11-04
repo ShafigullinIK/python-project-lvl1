@@ -9,7 +9,7 @@ import brain_games.games.prime_game_questions as prime_g_q
 def game(game_name):
     counter = 0
     while counter < 3:
-        question_with_answer = create_question(game_name)        
+        question_with_answer = create_question(game_name)
         is_answer_correct = cli.ask_question(question_with_answer)
         if is_answer_correct is True:
             counter = counter + 1
