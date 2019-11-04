@@ -2,7 +2,7 @@ import brain_games.games.game_logic as game_logic
 
 
 def main():
-    game_logic("gcd_game")
+    game_logic.start("gcd_game")
 
 
 if __name__ == '__main__':
