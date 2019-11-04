@@ -8,6 +8,7 @@ def create_question():
     position = random.randint(0, MAX_INT)
     counter = 0
     question = ""
+    correct_answer = ""
     while counter < 10:
         if counter != position:
             question = question + " {}".format(number + step*counter)
