@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/ShafigullinIK/python-project-lvl1.svg?branch=master)](https://travis-ci.org/ShafigullinIK/python-project-lvl1)
 
 1-st asciinema
-https://asciinema.org/a/5BZJuaBgK3n6tR64w4XEpbMmK?speed=2
+[![asciicast](https://asciinema.org/a/5BZJuaBgK3n6tR64w4XEpbMmK.svg)](https://asciinema.org/a/5BZJuaBgK3n6tR64w4XEpbMmK)
 
 To the 4-th step
 https://asciinema.org/a/h7zVZHdiLXocu4BnkfM24k501?speed=2
