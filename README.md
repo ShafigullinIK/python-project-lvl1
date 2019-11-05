@@ -8,17 +8,17 @@
 [![asciicast](https://asciinema.org/a/5BZJuaBgK3n6tR64w4XEpbMmK.svg)](https://asciinema.org/a/5BZJuaBgK3n6tR64w4XEpbMmK)
 
 To the 4-th step
-https://asciinema.org/a/h7zVZHdiLXocu4BnkfM24k501?speed=2
+[![asciicast](https://asciinema.org/a/h7zVZHdiLXocu4BnkfM24k501.svg)](https://asciinema.org/a/h7zVZHdiLXocu4BnkfM24k501)
 
 to the 5-th step
-https://asciinema.org/a/z8hQPXHm5A6iabXdzlha8BkQB?speed=2
+[![asciicast](https://asciinema.org/a/z8hQPXHm5A6iabXdzlha8BkQB.svg)](https://asciinema.org/a/z8hQPXHm5A6iabXdzlha8BkQB)
 
 to the 6-th step
-https://asciinema.org/a/devSOJfcSvzBsNCDvLTFnfOr3?speed=2
+[![asciicast](https://asciinema.org/a/devSOJfcSvzBsNCDvLTFnfOr3.svg)](https://asciinema.org/a/devSOJfcSvzBsNCDvLTFnfOr3)
 
 to the 7-th step
-https://asciinema.org/a/BmhZZTAGRqRI1YhEUXkQSFVf4?speed=2
+[![asciicast](https://asciinema.org/a/BmhZZTAGRqRI1YhEUXkQSFVf4.svg)](https://asciinema.org/a/BmhZZTAGRqRI1YhEUXkQSFVf4)
 
 to the last step
-https://asciinema.org/a/XQOWX5xs4imk7auwWOgAhZWPV?speed=2
+[![asciicast](https://asciinema.org/a/XQOWX5xs4imk7auwWOgAhZWPV.svg)](https://asciinema.org/a/XQOWX5xs4imk7auwWOgAhZWPV)
 
