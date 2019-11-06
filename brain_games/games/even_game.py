@@ -1,6 +1,9 @@
 import random
 
 
+GAME_DESCRIPTION = 'Answer "yes" if number even otherwise answer "no"\n'
+
+
 def create_question():
     MAX_INT = 100
     MIN_INT = 0

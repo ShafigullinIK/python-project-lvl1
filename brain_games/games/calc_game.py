@@ -1,6 +1,9 @@
 import random
 
 
+GAME_DESCRIPTION = 'What is the result of the expression?\n'
+
+
 def create_question():
     MAX_INT = 100
     MIN_INT = 0

@@ -1,6 +1,10 @@
 import random
 
 
+GAME_DESCRIPTION = 'Answer "yes" if given number is prime.\
+ Otherwise answer "no".\n'
+
+
 def create_question():
     MAX_INT = 100
     MIN_INT = 0

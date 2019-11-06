@@ -1,6 +1,9 @@
 import random
 
 
+GAME_DESCRIPTION = 'What number is missing in the progression?\n'
+
+
 def create_question():
     MAX_INT = 10
     number = random.randint(0, MAX_INT)

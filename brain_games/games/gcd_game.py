@@ -1,6 +1,9 @@
 import random
 
 
+GAME_DESCRIPTION = 'Find the greatest common divisor of given numbers.\n'
+
+
 def create_question():
     MAX_INT = 100
     MIN_INT = 0
