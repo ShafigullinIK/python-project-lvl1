@@ -1,9 +1,9 @@
-import brain_games.games.prime_game as prime_game
-import brain_games.game_engine as game_engine
+#!/usr/bin/env python3
+from brain_games import engine, games
 
 
 def main():
-    game_engine.run(prime_game)
+    engine.run(games.prime)
 
 
 if __name__ == '__main__':

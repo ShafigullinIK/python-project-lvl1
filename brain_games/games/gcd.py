@@ -1,12 +1,12 @@
 import random
 
 
-GAME_DESCRIPTION = 'Find the greatest common divisor of given numbers.\n'
+GAME_DESCRIPTION = 'Find the greatest common divisor of given numbers.'
+MAX_INT = 100
+MIN_INT = 0
 
 
 def create_question():
-    MAX_INT = 100
-    MIN_INT = 0
     number1 = random.randint(MIN_INT, MAX_INT)
     number2 = random.randint(MIN_INT, MAX_INT)
     question = "{} {}".format(number1, number2)
@@ -18,8 +18,6 @@ def find_gcd(pair):
     (first, second) = pair
     if second > first:
         (first, second) = (second, first)
-    while first % second != 0:
-        temp = second
-        second = first % second
-        first = temp
-    return second
+    while second != 0:
+        (first, second) = (second, first % second)
+    return first

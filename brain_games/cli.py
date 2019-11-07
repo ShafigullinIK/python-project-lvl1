@@ -4,22 +4,17 @@ import prompt
 def greeting(description):
     print("Welcome to the Brain Games!")
     print(description)
+    print()
 
 
-def run():
+def ask_name():
     name = prompt.string('May I have your name? ')
-    print("Hello, {}! \n".format(name))
+    print("Hello, {}!".format(name))
+    print()
     return name
 
 
-def ask_question(Q_A):
-    (question, correct_answer) = Q_A
+def ask_question(question):
     print('Question: {}'.format(question))
     answer = prompt.string('Your answer: ')
-    if answer == correct_answer:
-        print("Correct!")
-        return True
-    else:
-        print("'{}' is wrong answer ;(. Correct answer was \
-'{}'".format(answer, correct_answer))
-        return False
+    return answer
