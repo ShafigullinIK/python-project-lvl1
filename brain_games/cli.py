@@ -1,7 +1,7 @@
 import prompt
 
 
-def greeting(description):
+def greet(description):
     print("Welcome to the Brain Games!")
     print(description)
     print()

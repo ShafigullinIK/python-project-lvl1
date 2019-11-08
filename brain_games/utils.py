@@ -1,10 +1,8 @@
 def is_even(number):
-    if number % 2:
-        return False
-    return True
+    return not (number % 2)
 
 
-def convert_to_yes_no(boolean_val):
-    if boolean_val:
+def convert_to_yes_no(val):
+    if val:
         return "yes"
     return "no"

@@ -10,12 +10,11 @@ def create_question():
     number1 = random.randint(MIN_INT, MAX_INT)
     number2 = random.randint(MIN_INT, MAX_INT)
     question = "{} {}".format(number1, number2)
-    correct_answer = str(find_gcd((number1, number2)))
+    correct_answer = str(find_gcd(number1, number2))
     return(question, correct_answer)
 
 
-def find_gcd(pair):
-    (first, second) = pair
+def find_gcd(first, second):
     if second > first:
         (first, second) = (second, first)
     while second != 0:
